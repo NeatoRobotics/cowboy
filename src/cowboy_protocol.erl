@@ -56,7 +56,7 @@
 	until :: non_neg_integer() | infinity
 }).
 
--include_lib("cowlib/include/cow_inline.hrl").
+-include_lib("cowboy_cowlib_legacy.hrl").
 
 %% API.
 
